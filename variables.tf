@@ -30,7 +30,7 @@ variable "surge_upgrade" {
 
 variable "vpc_uuid" {
   type    = string
-  default = null
+  default = ""
 }
 
 variable "k8s_version" {
@@ -85,5 +85,5 @@ variable "node_pool_tags" {
 
 variable "cluster_tags" {
   type    = list(string)
-  default = null
+  default = []
 }
